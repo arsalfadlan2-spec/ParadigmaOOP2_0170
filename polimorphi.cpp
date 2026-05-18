@@ -15,3 +15,13 @@ public:
     }
 };
 
+int main() {
+    baseClass* basePtr;
+    derivedClass derivedObj;
+
+    basePtr = &derivedObj;
+
+    basePtr->perkenalan();
+
+    return 0;
+}

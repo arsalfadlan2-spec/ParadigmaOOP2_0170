@@ -24,4 +24,4 @@ int main() {
     basePtr->perkenalan();
 
     return 0;
-}
+};

@@ -3,7 +3,7 @@ using namespace std;
 
 class remoteLampu {
 private:
-   virtual string saklarNo[5];
+    string saklarNo[5];
 
 public:
     void setSaklarNo(int i, string value) {
